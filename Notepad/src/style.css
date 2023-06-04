@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* Estilos globais */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1.notepad-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para a área de entrada de nota */
+  .note-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .note-input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .importance-select {
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  .add-note-button {
+    min-width: 100px;
+  }
+  
+  /* Estilos para os botões de filtro */
+  .filter-button {
+    margin-right: 10px;
+  }
+  
+  /* Estilos para a lista de notas */
+  .note-list {
+    margin-top: 20px;
+  }
+  
+  .note-item {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos personalizados para os botões */
+  .add-note-button.green {
+    background-color: #21ba45 !important;
+    color: #fff !important;
+  }
+  
+  .filter-button.blue {
+    background-color: #2185d0 !important;
+    color: #fff !important;
+  }
+  
